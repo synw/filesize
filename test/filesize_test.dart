@@ -33,4 +33,14 @@ void main() {
   test("1P", () {
     expect(filesize(1024 * 1024 * 1024 * 1024 * 1024), "1 PB");
   });
+
+  test('Exception test', () {
+    ArgumentError exception;
+    try {
+      filesize('abc');
+    } on ArgumentError catch (e) {
+      exception = e;
+    }
+    expect(exception, isArgumentError);
+  });
 }
