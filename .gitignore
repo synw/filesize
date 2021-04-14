@@ -9,5 +9,6 @@ test/out
 .idea/
 .history
 test/.test_coverage.dart
+test/.test_cov.dart
 coverage/
 !coverage/lcov.info
