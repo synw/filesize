@@ -35,7 +35,7 @@ void main() {
   });
 
   test('Exception test', () {
-    ArgumentError exception;
+    late ArgumentError exception;
     try {
       filesize('abc');
     } on ArgumentError catch (e) {
