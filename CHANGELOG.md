@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1
+
+Fix in tests and travis build conf
+
 ## 2.0.0
 
 Null safety
