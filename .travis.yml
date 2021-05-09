@@ -8,7 +8,7 @@ install:
   - gem install coveralls-lcov
 
 script:
-  pub run test_coverage
+  pub run test_cov
 
 after_success:
   - coveralls-lcov coverage/lcov.info

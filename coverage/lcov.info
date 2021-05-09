@@ -1,7 +1,7 @@
-SF:lib\src\filesize.dart
+SF:lib/src/filesize.dart
 DA:2,1
 DA:12,2
-DA:14,0
+DA:14,2
 DA:17,1
 DA:18,1
 DA:21,4
@@ -30,5 +30,5 @@ DA:59,2
 DA:61,0
 DA:62,0
 LF:30
-LH:22
+LH:23
 end_of_record
